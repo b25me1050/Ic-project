@@ -2,21 +2,21 @@
 
 Indian Institute of Technology (IIT)
 
-## 🎯 Objective
+## Objective
 To develop a simple and efficient C program that reads a text file and replaces all occurrences of a specified word with another given word.  
 The program supports:
  1.Case-insensitive replacement  
  2.Whole-word replacement (only full words are replaced, not parts of other words)  
  3.Efficient handling of large text files
 
-## 🧠 Problem Description
+## Problem Description
 Manually replacing words in large text files is time-consuming.  
 Normal find-and-replace tools may replace parts of other words (like “pineapple” when replacing “apple”).  
 This project solves that issue using C programming — ensuring only correct word matches are replaced efficiently.
 
 
 
-## ⚙️ Algorithm
+##  Algorithm
 1. Start the program.  
 2. Take input for file names, old word, and new word.  
 3. Ask for case-insensitive and whole-word options.  
@@ -27,15 +27,15 @@ This project solves that issue using C programming — ensuring only correct wor
 8. Repeat until end of file.  
 9. Close files and display success message.  
 
-🧩 Features
-✅ Case-insensitive word replacement  
-✅ Whole-word match option  
-✅ Efficient file handling (works with large files)  
-✅ Simple, modular C code  
+## Features
+1.Case-insensitive word replacement  
+2. Whole-word match option  
+3. Efficient file handling (works with large files)  
+4. Simple, modular C code  
 
----
 
- 💻 Sample Input/Output
+
+ ## Sample Input/Output
 
 **Input File:**
 ```
@@ -55,14 +55,14 @@ Pineapple is not a mango.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 - Language: C  
 - Concepts: File Handling, Strings, Loops, Conditional Statements  
 - Compiler: GCC   
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Save the program as `word_replace.c`.  
 2. Compile it using:  
    ```bash
@@ -75,14 +75,14 @@ Pineapple is not a mango.
 4. Follow the on-screen instructions to enter file names and options.  
 
 
-## 📈 Applications
+## Applications
  1.Text file editing tools  
  2.Data cleaning and preprocessing  
  3.Automated report correction  
 
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Add graphical user interface (GUI).  
 - Support multiple word replacements.  
 - Add undo/redo functionality.  
